@@ -1,4 +1,3 @@
-//git undoing
 git checkout
 git revert
 git reset
