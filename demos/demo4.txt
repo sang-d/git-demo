@@ -1,0 +1,9 @@
+Working with remote
+
+git merge
+git remote
+git fetch
+git push
+git pull
+
+
