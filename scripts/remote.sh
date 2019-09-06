@@ -4,14 +4,23 @@
 git remote 
 git remote -v 
 
-# add remote
+# adding remote
 git remote add origin git@github.com:sang-d/git-demo.git
 
-# add another remote 
+# adding another remote 
 git remote add fork git@github.com:sang-d/git-demo-fork.git
 
-# display remote
+# displaying remote
 git remote show
 
-# delete remote
+# deleting remote
+git remote rm fork
+
+# adding back remote
+git remote add fork git@github.com:sang-d/git-demo-fork.git
+
+# pushing changes to remote
+git push --set-upstream origin master
+git push --set-upstream fork master
+
 
