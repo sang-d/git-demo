@@ -34,6 +34,7 @@ git branch -u origin/develop
 
 
 # adding another remote from bitbucket
+# # https://bitbucket.org/DINHXUANSANG/git-demo-new/src
 git remote add bb-remote git@bitbucket.org:DINHXUANSANG/git-demo-new.git
 git remote -v
 
