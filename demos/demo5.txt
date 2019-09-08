@@ -1,4 +1,0 @@
-
-git merge
-git rebase
-pr practice on github

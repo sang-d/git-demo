@@ -1,5 +1,26 @@
-//git undoing
-git checkout
-git revert
-git reset
+#!/bin/bash
 
+git clone git@github.com:sang-d/git-demo-fork.git
+cd git-demo-fork
+git flow init -d
+
+git checkout develop
+
+echo 'add change' >> changes/dev.txt
+git status
+git checkout changes/dev.txt
+git status
+
+
+echo 'add change' >> changes/dev.txt
+git add .
+git status
+git checkout changes/dev.txt
+git status
+git reset HEAD
+git status
+git checkout changes/dev.txt
+git status
+
+
+git revert
