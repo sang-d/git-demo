@@ -3,14 +3,13 @@
 # creating commit on origin remote 
 echo "adding changes" >> changes.txt
 
-gc -am "adding changes"
+git add  changes.txt > /dev/null 2>&1
+
+git commit -m "adding changes"  > /dev/null 2>&1
 
 echo "adding another text" >> changes.txt
 
-gc -am "adding another text"
+git commit -am "adding another text" > /dev/null 2>&1
 
-git push
-
-
-# experiment with fork repo when pushing
+git push > /dev/null 2>&1
 
