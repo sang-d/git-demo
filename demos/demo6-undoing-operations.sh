@@ -23,4 +23,20 @@ git checkout changes/dev.txt
 git status
 
 
-git revert
+# reset to previous commit
+echo "change 1" >> changes/reset.txt
+git add .
+git commit -m "add change 1"
+echo "change 2" >> changes/reset.txt
+git add .
+git commit -m "add change 2"
+
+# showing status
+git log
+
+git reset --soft #commit-hash
+git status # showing changes is added on staging
+
+git log
+git reset --hard #commit-hash
+git status
