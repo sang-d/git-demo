@@ -1,4 +1,0 @@
-git checkout
-git revert
-git reset
-

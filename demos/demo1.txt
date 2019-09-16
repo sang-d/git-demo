@@ -1,6 +1,0 @@
-git int
-git clone
-git fork
-git status
-git add
-git fork

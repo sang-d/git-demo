@@ -1,5 +1,0 @@
-
-git branch
-git tag
-git checkout
-git stash
